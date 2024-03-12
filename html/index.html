@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c0ad8165cf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--------------------------------startHeader------------------------------------------>
+
+    <header class="container">
+      <div class="row">
+        <div class="col">
+          <div>
+            <img src="../imag/2.png" alt="" />
+          </div>
+        </div>
+
+        <div class="col">
+          <div>
+            <div class="d-flex justify-content-end">
+              <a href="#" class="me-3 text-decoration-none text-dark fw-bold"
+                >SIGN IN</a
+              >
+              <a href="#" class="me-3 text-decoration-none text-dark fw-bold"
+                >CREATE AN ACCOUNT</a
+              >
+              <a href="#" class="text-decoration-none text-dark fw-bold"
+                >FIND A PIZZACSS HUT</a
+              >
+            </div>
+            <div class="d-flex justify-content-end mt-3">
+              <i class="fa-solid fa-phone fs-4"></i>
+              <h4 class="fs-5">CALL US 19000</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--------------------------------endHeader------------------------------------------>
+    <!--------------------------------startcarousel------------------------------------------>
+
+    <div class="container">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide d-none d-md-block" 
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner w-80 ms-auto me-auto " style="height: 90vh">
+          <div class="carousel-item active">
+            <img src="../imag/pizza-1.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="../imag/pizza-2.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="../imag/pizza-3.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item active">
+            <img src="../imag/pizza.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!--------------------------------endcarousel------------------------------------------>
+
+    <!--------------------------------start-noneNav-->
+    <div class="container d-block d-md-none ">
+      <div class="navNone" >
+
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="p-4" style="background-color: rgb(241, 241, 241)">
+          <h5 class="text-danger">ALL</h5>
+          <h5 class="text-danger">BEEF</h5>
+          <h5 class="text-danger">CHICKEN</h5>
+          <h5 class="text-danger">VEGTRIAN</h5>
+          <h5 class="text-danger">SPECIALTY</h5>
+          <h5 class="text-danger">EXTREME PIZZA</h5>
+          <h5 class="text-danger">SEAFOOD</h5>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark" style="background-color: rgb(241, 241, 241)">
+          <div class="container-fluid">
+            <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+    <!--------------------------------end-noneNav-->
+    <!--------------------------------start-nav------------------------------------------>
+    <nav class="container mt-2 ">
+      <div  class="d-none d-md-block"><!-----------------------------------------firstNav-->
+        <ul
+        id="navbar"
+        class="nav nav-pills d-flex justify-content-between border-top "
+      >
+        <li class="nav-item border-right">
+          <a
+            class="nav-link text-dark fs-5 fw-bolder"
+            aria-current="page"
+            href="#"
+            >PIZZA</a
+          >
+        </li>
+        <li class="nav-item border-right">
+          <a
+            class="nav-link text-dark fs-5 fw-bolder"
+            aria-current="page"
+            href="#"
+            >STARTERS</a
+          >
+        </li>
+        <li class="nav-item border-right">
+          <a
+            class="nav-link text-dark fs-5 fw-bolder"
+            aria-current="page"
+            href="#"
+            >SALADS</a
+          >
+        </li>
+        <li class="nav-item dropdown border-right">
+          <a
+            class="nav-link dropdown-toggle text-dark fs-5 fw-bolder"
+            data-bs-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-expanded="false"
+            >MORE</a
+          >
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+        </li>
+        <li class="nav-item border-right">
+          <a
+            class="nav-link disabled bg-warning fs-5 fw-bolder"
+            aria-disabled="true"
+            >DEALS</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            id="hov"
+            class="nav-link active bg-danger ps-5 pe-5 text-white fs-5 fw-bolder"
+            aria-current="page"
+            href="#"
+            >START YOUR ORDER</a
+          >
+        </li>
+      </ul>
+      </div>
+      
+
+      <div class="imgback position-relative">
+        <img class="w-100" src="../imag/3.png" alt="" />
+      <!------------------------------------------------------------------------------secondNav-->
+        <div
+          class="opacity d-none d-md-flex d-flex justify-content-between align-items-center position-absolute bottom-0 w-100 ps-2 pe-2"
+        >
+          <h5 class="text-white">ALL</h5>
+          <h5 class="text-white">BEEF</h5>
+          <h5 class="text-white">CHICKEN</h5>
+          <h5 class="text-white">VEGTRIAN</h5>
+          <h5 class="text-white">SPECIALTY</h5>
+          <h5 class="text-white">EXTREME PIZZA</h5>
+          <h5 class="text-white">SEAFOOD</h5>
+          <h5 class="d-none"></h5>
+          <h5 class="d-none"></h5>
+        </div>
+      </div>
+<!--------------------------------start-itemsView------------------------------------------>
+
+<div class="container pt-3" style="background-color: rgb(241, 241, 241);">
+    <div class="row justify-content-around ">
+
+        <div class="d-flex pb-3 mb-4 col-md-6 col-sm-12 align-items-center bg-white text-center rounded" style="width: auto;"  >
+            <div class="ms-3 me-3">
+              <img src="../imag/4.png" alt="" />
+              <h4 class="fw-bold">EGP 75.88</h4>
+            </div>
+
+           <div class="text-start" style="width: 220px;">
+              <h4 class="text-danger">SUPER SUPERME</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem aspernatur officiis inventore quibusdam animi
+                rerum.
+              </p>
+              <div class="d-flex ">
+
+                <div class="btn-group mt-3 text-center me-2  ">
+                    <button class="pe-5 me-2 btn btn-secondary text-start btn-sm dropdown-toggle bg-white text-dark fw-bold" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Pan
+                    </button>
+                    <ul class="dropdown-menu ">
+                      <li>
+                        PanTen
+                      </li>
+                      <li>
+                        PanTenOne
+                      </li>
+                      <li>
+                        PanTenTwne
+                      </li>
+                    </ul>
+                  </div>
+    
+                  <div class="btn-group mt-3 ">
+                    <button class="btn btn-secondary btn-sm bg-white text-dark fw-bold" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);" type="button">
+                      Medium
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-secondary bg-white  text-danger dropdown-toggle dropdown-toggle-split"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu ">
+                      <li>
+                        Medium
+                      </li>
+                      <li>
+                        Small
+                      </li>
+                      <li>
+                        Large
+                      </li>
+                    </ul>
+                  </div>
+
+               </div>
+               <div class="mt-2">
+                <button type="button" class="btn btn-secondary btn-sm fw-bold">CUSTOMIZE</button>
+                <button type="button" class="btnAdd btn btn-danger btn-sm p-2 fw-bold">ADD TO CART</button>
+               </div>
+               
+             
+  
+             
+          
+            </div>
+          </div>
+
+          <div class="d-flex pb-3 mb-4 col-md-6 col-sm-12 align-items-center bg-white text-center rounded" style="width: auto;"  >
+            <div class="ms-3 me-3">
+              <img src="../imag/4.png" alt="" />
+              <h4 class="fw-bold">EGP 75.88</h4>
+            </div>
+
+           <div class="text-start" style="width: 220px;">
+              <h4 class="text-danger">SUPER SUPERME</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem aspernatur officiis inventore quibusdam animi
+                rerum.
+              </p>
+              <div class="d-flex ">
+
+                <div class="btn-group mt-3 text-center me-2  ">
+                    <button class="pe-5 me-2 btn btn-secondary text-start btn-sm dropdown-toggle bg-white text-dark fw-bold" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Pan
+                    </button>
+                    <ul class="dropdown-menu ">
+                      <li>
+                        PanTen
+                      </li>
+                      <li>
+                        PanTenOne
+                      </li>
+                      <li>
+                        PanTenTwne
+                      </li>
+                    </ul>
+                  </div>
+    
+                  <div class="btn-group mt-3 ">
+                    <button class="btn btn-secondary btn-sm bg-white text-dark fw-bold" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);" type="button">
+                      Medium
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-secondary bg-white  text-danger dropdown-toggle dropdown-toggle-split"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu ">
+                      <li>
+                        Medium
+                      </li>
+                      <li>
+                        Small
+                      </li>
+                      <li>
+                        Large
+                      </li>
+                    </ul>
+                  </div>
+
+               </div>
+               <div class="mt-2">
+                <button type="button" class="btn btn-secondary btn-sm fw-bold">CUSTOMIZE</button>
+                <button type="button" class="btnAdd btn btn-danger btn-sm p-2 fw-bold">ADD TO CART</button>
+               </div>
+               
+             
+  
+             
+          
+            </div>
+          </div>
+
+          <div class="d-flex pb-3 mb-4 col-md-6 col-sm-12 align-items-center bg-white text-center rounded" style="width: auto;"  >
+            <div class="ms-3 me-3">
+              <img src="../imag/4.png" alt="" />
+              <h4 class="fw-bold">EGP 75.88</h4>
+            </div>
+
+           <div class="text-start" style="width: 220px;">
+              <h4 class="text-danger">SUPER SUPERME</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem aspernatur officiis inventore quibusdam animi
+                rerum.
+              </p>
+              <div class="d-flex ">
+
+                <div class="btn-group mt-3 text-center me-2  ">
+                    <button class="pe-5 me-2 btn btn-secondary text-start btn-sm dropdown-toggle bg-white text-dark fw-bold" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Pan
+                    </button>
+                    <ul class="dropdown-menu ">
+                      <li>
+                        PanTen
+                      </li>
+                      <li>
+                        PanTenOne
+                      </li>
+                      <li>
+                        PanTenTwne
+                      </li>
+                    </ul>
+                  </div>
+    
+                  <div class="btn-group mt-3 ">
+                    <button class="btn btn-secondary btn-sm bg-white text-dark fw-bold" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);" type="button">
+                      Medium
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-secondary bg-white  text-danger dropdown-toggle dropdown-toggle-split"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu ">
+                      <li>
+                        Medium
+                      </li>
+                      <li>
+                        Small
+                      </li>
+                      <li>
+                        Large
+                      </li>
+                    </ul>
+                  </div>
+
+               </div>
+               <div class="mt-2">
+                <button type="button" class="btn btn-secondary btn-sm fw-bold">CUSTOMIZE</button>
+                <button type="button" class="btnAdd btn btn-danger btn-sm p-2 fw-bold">ADD TO CART</button>
+               </div>
+               
+             
+  
+             
+          
+            </div>
+          </div>
+
+          <div class="d-flex pb-3 mb-4 col-md-6 col-sm-12 align-items-center bg-white text-center rounded" style="width: auto;"  >
+            <div class="ms-3 me-3">
+              <img src="../imag/4.png" alt="" />
+              <h4 class="fw-bold">EGP 75.88</h4>
+            </div>
+
+           <div class="text-start" style="width: 220px;">
+              <h4 class="text-danger">SUPER SUPERME</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem aspernatur officiis inventore quibusdam animi
+                rerum.
+              </p>
+              <div class="d-flex ">
+
+                <div class="btn-group mt-3 text-center me-2  ">
+                    <button class="pe-5 me-2 btn btn-secondary text-start btn-sm dropdown-toggle bg-white text-dark fw-bold" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Pan
+                    </button>
+                    <ul class="dropdown-menu ">
+                      <li>
+                        PanTen
+                      </li>
+                      <li>
+                        PanTenOne
+                      </li>
+                      <li>
+                        PanTenTwne
+                      </li>
+                    </ul>
+                  </div>
+    
+                  <div class="btn-group mt-3 ">
+                    <button class="btn btn-secondary btn-sm bg-white text-dark fw-bold" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);" type="button">
+                      Medium
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-secondary bg-white  text-danger dropdown-toggle dropdown-toggle-split"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu ">
+                      <li>
+                        Medium
+                      </li>
+                      <li>
+                        Small
+                      </li>
+                      <li>
+                        Large
+                      </li>
+                    </ul>
+                  </div>
+
+               </div>
+               <div class="mt-2">
+                <button type="button" class="btn btn-secondary btn-sm fw-bold">CUSTOMIZE</button>
+                <button type="button" class="btnAdd btn btn-danger btn-sm p-2 fw-bold">ADD TO CART</button>
+               </div>
+               
+             
+  
+             
+          
+            </div>
+          </div>
+         
+         
+
+
+    </div>
+</div>
+    </nav>
+  
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
+<!--------- style="height: 80vh; background-color: rgb(241, 241, 241)"-----------
+    <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center bg-white text-center" style="width: 36%;">
+          <div class="ms-3 me-3">
+            <img src="../imag/4.png" alt="" />
+            <h4>EGP 75.88</h4>
+          </div>
+         <div class="text-start">
+            <h3>SUPER SUPERME</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem aspernatur officiis inventore quibusdam animi
+              rerum.
+            </p>
+            <div class="btn-group mt-3">
+              <button
+                class="btn btn-secondary btn-sm dropdown-toggle"
+                style="width: 147px; text-align: left"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pan
+              </button>
+              <ul class="dropdown-menu">
+                ...
+              </ul>
+            </div>
+            <div class="btn-group mt-3">
+              <button class="btn btn-secondary btn-sm" type="button">
+                Medium
+              </button>
+              <button
+                type="button"
+                class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu">
+                ...
+              </ul>
+            </div>
+
+            <div class="mt-3">
+                <button type="button" class="btn btn-secondary btn-md">
+                    CUSTOMIZE
+                  </button>
+                  <button type="button" class="btn btn-danger btn-md">
+                    ADD TO CARD
+                  </button>
+            </div>
+        
+          </div>
+        </div>
+    
+    
+    ---------->
